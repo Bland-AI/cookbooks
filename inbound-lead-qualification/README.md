@@ -40,6 +40,7 @@ Within your backend folder, create a `.env` file. Within that file, insert the f
 
 ```
 BLAND_API_KEY=sk-xxxxxxxxxxxxxxxxxx
+TRANSFER_PHONE_NUMBER=+1234567890
 ```
 
 To get your own API key, go to the [developer portal](https://app.bland.ai) and sign up. Once you have your API key, update the value in your `.env` file.
