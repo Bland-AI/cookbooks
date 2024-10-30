@@ -78,7 +78,7 @@ app.post("/request-demo", (req, res) => {
   `;
 
   // After the phone agent qualifies the lead, they'll transfer to this phone number
-  const TRANSFER_PHONE_NUMBER = "XXX-XXX-XXXX";
+  const TRANSFER_PHONE_NUMBER = process.env.TRANSFER_PHONE_NUMBER;
 
   // Create the parameters for the phone call. Ref: https://docs.bland.ai/api-reference/endpoint/call
   const data = {
